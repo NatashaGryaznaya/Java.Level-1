@@ -8,7 +8,7 @@ public class L2_HomeWorkApp {
         System.out.println(within10and20(2,3));
         isPositiveOrNegative(11);
         System.out.println(isNegative(-16));
-        printWordNTimes();
+        printWordNTimes(" Don't worry, be happy" , 6);
         System.out.println(year(1900));
     }
 
@@ -37,9 +37,9 @@ public class L2_HomeWorkApp {
         }
     }
 
-    public static void printWordNTimes() {
-        for (int x = 1; x < 6; x++) {
-            System.out.println(x + " Don't worry, be happy");
+    public static void printWordNTimes(String input, int times) {
+        for (int x = 0; x < times; x++) {
+            System.out.println(input);
         }
     }
 
